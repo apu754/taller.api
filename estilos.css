@@ -39,11 +39,11 @@
   width: 80%;
   height: 70%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
 .personaje-imagen {
-  width: 100px; /* ajusta el tamaño según tus preferencias */
-  height: auto; /* para mantener la proporción de aspecto */
+  width: 100px;
+  height: auto;
 }
