@@ -22,7 +22,7 @@ const peticionApi = (nombrePersonaje) => {
         alert('No se encontró ningún personaje con ese nombre.');
       }
     })
-    .catch((err) => console.log(err));
+    .catch((err) => alert(err));
 };
 
 const ImprimirData = (data) => {
